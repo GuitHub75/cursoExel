@@ -18,13 +18,13 @@ function App() {
     title: "Tema 1: Introducción a Excel", 
     description: "Conoce la interfaz de Excel, sus principales funciones y cómo se organiza la información en hojas de cálculo.", 
     video: "https://www.youtube.com/embed/rwbho0CgEAE", 
-    key: "excel_intro" 
+    key: "fomulas3456" 
   },
   { 
     title: "Tema 2: Fórmulas Básicas", 
     description: "Aprende a usar fórmulas simples como SUMA, PROMEDIO, MIN y MAX para automatizar cálculos en tus hojas.", 
     video: "https://www.youtube.com/embed/5W0XKw4cT1M", 
-    key: "excel_formulas" 
+    key: "excel_format" 
   },
   { 
     title: "Tema 3: Formato de Celdas", 
