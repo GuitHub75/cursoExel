@@ -471,7 +471,7 @@ function App() {
                   </div>
                 ) : (
                   <div className="bg-gradient-to-r from-yellow-50 to-orange-50 rounded-xl p-8 border-2 border-yellow-200">
-                    <div className="text-center mb-6">
+                    <div className="text-center mb-6">  
                       <div className="text-5xl mb-3">🔐</div>
                       <h3 className="text-2xl font-bold text-gray-800 mb-2">
                         ¡Tema Completado!

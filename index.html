@@ -1,12 +1,23 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cursoapp</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-
+    <meta name="description" content="Mini curso de desarrollo web con React" />
+    <title>Mini Curso React - Desarrollo Web</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Configuración para reducir warnings -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {}
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
