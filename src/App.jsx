@@ -46,134 +46,116 @@ function App() {
     title: "Opciones Insertar con Dereck Flores", 
     description: "Descubre las opciones de insertar en Excel. Todo esto lo aprenderas con Dereck Flores", 
     video: "https://www.youtube.com/embed/Zk5yAoQY77w", 
-    key: "excel_format",
+    key: "graficos123",
     resources: [
       { name: "Video Tutorial - Opciones Insertar", url: "https://youtu.be/Zk5yAoQY77w" },
     ]
-  } /*,
-  { 
-    title: "Tema 4: Funciones Avanzadas", 
-    description: "Explora funciones como SI, BUSCARV, BUSCARX y concatenación para hacer tus hojas más inteligentes.", 
-    video: "https://www.youtube.com/embed/XLgBnp3kUfw", 
-    key: "excel_advanced",
+  },{
+    title: "Graficos en Excel con Erick Escobar",
+    description: "Aprende a crear gráficos en Excel. Todo esto lo aprenderas con Erick Escobar",
+    video: "https://www.youtube.com/embed/i-MAptTPN-k",
+    key: "vista123",
     resources: [
-      { name: "Función BUSCARV", url: "https://support.microsoft.com/es-es/office/funcion-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1" },
-      { name: "Función SI Anidada", url: "https://support.microsoft.com/es-es/office/funcion-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2" }
+      { name: "Recurso para practicar", url: "https://drive.google.com/drive/folders/1FI8P9gLoDpvDxZxIFvzEtg3VBjQG4s6V?usp=sharing" },
     ]
   },
-  { 
-    title: "Tema 5: Gráficos en Excel", 
-    description: "Aprende a crear gráficos de barras, líneas, circulares y personalizados para visualizar tus datos.", 
-    video: "https://www.youtube.com/embed/4Uj0PFSbTQE", 
-    key: "excel_charts",
+  {
+    title:"Opción de Vista con Ariel Sandoval",
+    description: "Aprende a usar las opciones de vista en Excel. Todo esto lo aprenderas con Ariel Sandoval",
+    video: "https://www.youtube.com/embed/LRfzcAub2tM",
+    key: "datos12",
     resources: [
-      { name: "Crear Gráficos en Excel", url: "https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-desde-el-principio-hasta-el-final-0baf399e-dd61-4e18-8a73-b3fd5d5680c2" },
-      { name: "Tipos de Gráficos", url: "https://support.microsoft.com/es-es/office/tipos-de-gr%C3%A1ficos-disponibles-en-office-a6182418-848e-4f9f-9845-58f8719216f8" }
+      { name: "video Tutorial - Opción de Vista", url: "https://youtu.be/LRfzcAub2tM" },
     ]
   },
-  { 
-    title: "Tema 6: Tablas Dinámicas", 
-    description: "Domina las tablas dinámicas para resumir y analizar grandes cantidades de información fácilmente.", 
-    video: "https://www.youtube.com/embed/9NUjHBNWe9M", 
-    key: "excel_pivots",
+  {
+    title: "Opcion de datos con Ariel Sandoval",
+    description: "Aprende a usar las opciones de datos en Excel. Todo esto lo aprenderas con Ariel Sandoval",
+    video: "https://www.youtube.com/embed/SLTGNC2zqaM",
+    key: "importar123",
     resources: [
-      { name: "Crear Tablas Dinámicas", url: "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-27c4b46b-9fd1-4c1d-ab00-9c853987dc6c" },
-      { name: "Filtros en Tablas Dinámicas", url: "https://support.microsoft.com/es-es/office/filtrar-datos-en-una-tabla-din%C3%A1mica-cc1ed287-3a9a-4b9d-a379-14daea36eaca" }
+      { name: "video Tutorial - Opción de Datos", url: "https://youtu.be/SLTGNC2zqaM" },
     ]
   },
-  { 
-    title: "Tema 7: Validación de Datos", 
-    description: "Controla la entrada de datos usando validaciones, listas desplegables y reglas personalizadas.", 
-    video: "https://www.youtube.com/embed/1k8yM7Xh7ns", 
-    key: "excel_validation",
+  {
+    title: "Importando una base de datos de Acces con Erick Escobar",
+    description: "En este video, se importara una base de datos de Access a Excel, para poder trabajar con ella. Todo esto lo aprenderas con Erick Escobar",
+    video: "https://www.youtube.com/embed/mKyaCwYBNEc",
+    key: "inmovilizar123",
     resources: [
-      { name: "Validación de Datos", url: "https://support.microsoft.com/es-es/office/aplicar-validaci%C3%B3n-de-datos-a-las-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249" },
-      { name: "Listas Desplegables", url: "https://support.microsoft.com/es-es/office/crear-una-lista-desplegable-7693307a-59ef-400a-b769-c5402dce407b" }
+      { name: "Recurso para practicar", url: "https://drive.google.com/drive/folders/16rvGl4AowSCWHoerZqTigluH7_QvGX6R?usp=sharing" },
     ]
   },
-  { 
-    title: "Tema 8: Macros y Automatización", 
-    description: "Introducción a las macros para automatizar tareas repetitivas usando VBA en Excel.", 
-    video: "https://www.youtube.com/embed/1v6ZWR7wF3U", 
-    key: "excel_macros",
+  {
+    title: "Vista Inmovilizar, con Erick Escobar",
+    description: "Aprende a inmovilizar las vistas en Excel. Esto lo aprenderas con Erick Escobar",
+    video: "https://www.youtube.com/embed/KXE25yiYz6Q",
+    key: "revisar123",
     resources: [
-      { name: "Introducción a VBA", url: "https://support.microsoft.com/es-es/office/introducci%C3%B3n-a-vba-en-excel-9e767d2c-9424-4f2f-b7e0-af6a0b5c2a73" },
-      { name: "Grabar Macros", url: "https://support.microsoft.com/es-es/office/grabar-una-macro-974ef220-f716-4e01-b015-3ea70e64937b" }
+      { name: "Recurso para practicar", url: "Tomaremos encuenta la informacion que ya importamos en el tema anterior" },
     ]
-  },
-  { 
-    title: "Tema 9: Análisis de Datos", 
-    description: "Usa herramientas como Filtros Avanzados, Segmentaciones y Power Query para analizar información eficientemente.", 
-    video: "https://www.youtube.com/embed/WkZ_SJY6vZg", 
-    key: "excel_analysis",
-    resources: [
-      { name: "Power Query", url: "https://support.microsoft.com/es-es/office/introducci%C3%B3n-a-power-query-6e92e2f4-2079-4e1f-bad5-89f6269cd605" },
-      { name: "Filtros Avanzados", url: "https://support.microsoft.com/es-es/office/filtrar-por-uso-de-criterios-avanzados-4c9222fe-8529-4cd7-a898-3f16abdff32b" }
-    ]
-  },
-  { 
-    title: "Tema 10: Proyecto Final en Excel", 
-    description: "Integra todo lo aprendido creando un proyecto completo que combine fórmulas, gráficos y tablas dinámicas.", 
-    video: "https://www.youtube.com/embed/C7Fk6RZtYck", 
+  },{
+    title: "Opcion de Revisar con Ariel Sandoval",
+    description: "Aprende a usar la opcion de revisar en Excel. Todo esto lo aprenderas con Ariel Sandoval",
+    video: "https://www.youtube.com/embed/3aCEifBJX5k",
     key: "excel_final",
     resources: [
-      { name: "Plantillas de Proyectos", url: "https://templates.office.com/es-es/proyectos" },
-      { name: "Mejores Prácticas", url: "https://support.microsoft.com/es-es/office/mejores-pr%C3%A1cticas-para-crear-una-hoja-de-c%C3%A1lculo-4b0ad287-36a1-4a8b-a287-9c45bb0e9a43" }
+      { name: "video Tutorial - Opción de Revisar", url: "https://youtu.be/3aCEifBJX5k" },
     ]
-  }*/
+  }
 ];
 
   // Preguntas del examen directamente en el código (SIN fetch)
   const examQuestions = [
     { 
-      question: "¿Cuál es la principal ventaja de usar React?", 
-      options: ["Es más rápido que JavaScript", "Permite crear componentes reutilizables", "No necesita HTML"], 
-      answer: 1 
-    },
-    { 
-      question: "¿Qué significa JSX en React?", 
-      options: ["JavaScript XML", "Java Syntax Extension", "JSON eXtended"], 
+      question: "¿Cuál es la función principal de Excel?", 
+      options: ["Organizar y analizar datos en hojas de cálculo", "Crear presentaciones", "Editar imágenes"], 
       answer: 0 
     },
     { 
-      question: "¿Cuál es la forma correcta de definir un estado en un componente funcional?", 
-      options: ["this.state = {}", "useState()", "setState()"], 
+      question: "¿Qué opción del menú Inicio permite crear un nuevo archivo?", 
+      options: ["Abrir", "Nuevo", "Guardar"], 
       answer: 1 
     },
     { 
-      question: "¿Qué hook se usa para efectos secundarios?", 
-      options: ["useState", "useEffect", "useContext"], 
-      answer: 1 
-    },
-    { 
-      question: "¿Cuál es la extensión típica de archivos React?", 
-      options: [".js", ".jsx", ".react"], 
-      answer: 1 
-    },
-    { 
-      question: "¿Qué es un prop en React?", 
-      options: ["Una función", "Un dato que se pasa entre componentes", "Un tipo de variable"], 
-      answer: 1 
-    },
-    { 
-      question: "¿Cuál es la forma correcta de manejar eventos en React?", 
-      options: ["onclick", "onClick", "onPress"], 
-      answer: 1 
-    },
-    { 
-      question: "¿Qué es el Virtual DOM?", 
-      options: ["Una copia en memoria del DOM real", "Un navegador virtual", "Un tipo de componente"], 
+      question: "¿Cuál es la fórmula correcta para sumar las celdas A1 a A10?", 
+      options: ["=SUMA(A1:A10)", "=SUM(A1-A10)", "=TOTAL(A1,A10)"], 
       answer: 0 
     },
     { 
-      question: "¿Cuál es la diferencia entre props y state?", 
-      options: ["No hay diferencia", "Props son inmutables, state es mutable", "State es más rápido"], 
+      question: "¿Qué opción del menú Insertar permite agregar gráficos?", 
+      options: ["Tabla", "Imagen", "Gráfico"], 
+      answer: 2 
+    },
+    { 
+      question: "¿Cuál es la función para encontrar el valor máximo en un rango?", 
+      options: ["=MIN()", "=MAX()", "=PROMEDIO()"], 
       answer: 1 
     },
     { 
-      question: "¿Qué comando se usa para crear una nueva aplicación React?", 
-      options: ["npm create react-app", "npx create-react-app", "npm install react"], 
+      question: "¿Qué opción de Vista permite congelar filas y columnas?", 
+      options: ["Zoom", "Vista previa", "Inmovilizar paneles"], 
+      answer: 2 
+    },
+    { 
+      question: "¿Cuál es la función para calcular el promedio de un rango de celdas?", 
+      options: ["=SUMA()", "=PROMEDIO()", "=CONTAR()"], 
       answer: 1 
+    },
+    { 
+      question: "¿Qué opción de Datos permite importar información desde Access?", 
+      options: ["Obtener datos", "Filtros", "Validación de datos"], 
+      answer: 0 
+    },
+    { 
+      question: "¿Para qué sirve la opción 'Inmovilizar paneles' en Excel?", 
+      options: ["Para ocultar celdas", "Para mantener visibles filas/columnas al desplazarse", "Para eliminar datos"], 
+      answer: 1 
+    },
+    { 
+      question: "¿Qué opción de Revisar permite verificar la ortografía?", 
+      options: ["Comentarios", "Proteger hoja", "Ortografía"], 
+      answer: 2 
     }
   ];
 
