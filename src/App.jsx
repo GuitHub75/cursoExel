@@ -15,65 +15,112 @@ function App() {
 
  const steps = [
   { 
-    title: "Tema 1: Introducción a Excel", 
-    description: "Conoce la interfaz de Excel, sus principales funciones y cómo se organiza la información en hojas de cálculo.", 
-    video: "https://www.youtube.com/embed/rwbho0CgEAE", 
-    key: "fomulas3456" 
+    title: "Introducción a Excel con Erick Escobar", 
+    description: "Conoce la interfaz de Excel, sus principales funciones y cómo se organiza la información en hojas de cálculo. Todo esto lo aprenderas con Erick Escobar", 
+    video: "https://www.youtube.com/embed/5N5CcAptck4", 
+    key: "Inicio12",
+    resources: [
+      { name: "Precentacion completa de introducción a Excel", url: "https://gamma.app/docs/Excel-Basico-Clase2-95bpciyapfllznk" },
+    ]
+  },
+  {
+    title: "Opciones de Inicio con Dereck Flores",
+    description: "Aprende a crear, guardar y abrir archivos en Excel, además de explorar plantillas útiles para diferentes necesidades. Todo esto lo aprenderas con Dereck Flores",
+    video: "https://www.youtube.com/embed/HPy2gUWzLUk",
+    key: "formulas2324",
+    resources: [
+      { name: "Video Tutorial - Opciones de Inicio", url: "https://www.youtube.com/watch?v=HPy2gUWzLUk&feature=youtu.be" },
+    ]
   },
   { 
-    title: "Tema 2: Fórmulas Básicas", 
-    description: "Aprende a usar fórmulas simples como SUMA, PROMEDIO, MIN y MAX para automatizar cálculos en tus hojas.", 
-    video: "https://www.youtube.com/embed/5W0XKw4cT1M", 
-    key: "excel_format" 
+    title: "Fórmulas Básicas con Alex Fuentes", 
+    description: "Aprende a usar fórmulas simples para sumar, sacar promedio, MIN y MAX para automatizar cálculos en tus hojas. Todo esto lo aprenderas con Alex Fuentes", 
+    video: "https://www.youtube.com/embed/e81PUasG8Hw", 
+    key: "Insertar2019",
+    resources: [
+      { name: "Video Tutorial - Fórmulas en Excel", url: "https://youtu.be/e81PUasG8Hw" },
+      { name: "Archivo de Práctica", url: "https://docs.google.com/spreadsheets/d/1Q_R8AFc8e9ljHtKvuqPz6dRFftnFM72z/edit?usp=sharing&ouid=106510904715986070006&rtpof=true&sd=true" }
+    ]
   },
   { 
-    title: "Tema 3: Formato de Celdas", 
-    description: "Descubre cómo dar formato a tus celdas, cambiar colores, fuentes, bordes y aplicar estilos condicionales.", 
-    video: "https://www.youtube.com/embed/8vT1v9Lq3Ag", 
-    key: "excel_format" 
-  },
+    title: "Opciones Insertar con Dereck Flores", 
+    description: "Descubre las opciones de insertar en Excel. Todo esto lo aprenderas con Dereck Flores", 
+    video: "https://www.youtube.com/embed/Zk5yAoQY77w", 
+    key: "excel_format",
+    resources: [
+      { name: "Video Tutorial - Opciones Insertar", url: "https://youtu.be/Zk5yAoQY77w" },
+    ]
+  } /*,
   { 
     title: "Tema 4: Funciones Avanzadas", 
     description: "Explora funciones como SI, BUSCARV, BUSCARX y concatenación para hacer tus hojas más inteligentes.", 
     video: "https://www.youtube.com/embed/XLgBnp3kUfw", 
-    key: "excel_advanced" 
+    key: "excel_advanced",
+    resources: [
+      { name: "Función BUSCARV", url: "https://support.microsoft.com/es-es/office/funcion-buscarv-0bbc8083-26fe-4963-8ab8-93a18ad188a1" },
+      { name: "Función SI Anidada", url: "https://support.microsoft.com/es-es/office/funcion-si-69aed7c9-4e8a-4755-a9bc-aa8bbff73be2" }
+    ]
   },
   { 
     title: "Tema 5: Gráficos en Excel", 
     description: "Aprende a crear gráficos de barras, líneas, circulares y personalizados para visualizar tus datos.", 
     video: "https://www.youtube.com/embed/4Uj0PFSbTQE", 
-    key: "excel_charts" 
+    key: "excel_charts",
+    resources: [
+      { name: "Crear Gráficos en Excel", url: "https://support.microsoft.com/es-es/office/crear-un-gr%C3%A1fico-desde-el-principio-hasta-el-final-0baf399e-dd61-4e18-8a73-b3fd5d5680c2" },
+      { name: "Tipos de Gráficos", url: "https://support.microsoft.com/es-es/office/tipos-de-gr%C3%A1ficos-disponibles-en-office-a6182418-848e-4f9f-9845-58f8719216f8" }
+    ]
   },
   { 
     title: "Tema 6: Tablas Dinámicas", 
     description: "Domina las tablas dinámicas para resumir y analizar grandes cantidades de información fácilmente.", 
     video: "https://www.youtube.com/embed/9NUjHBNWe9M", 
-    key: "excel_pivots" 
+    key: "excel_pivots",
+    resources: [
+      { name: "Crear Tablas Dinámicas", url: "https://support.microsoft.com/es-es/office/crear-una-tabla-din%C3%A1mica-para-analizar-datos-de-una-hoja-de-c%C3%A1lculo-27c4b46b-9fd1-4c1d-ab00-9c853987dc6c" },
+      { name: "Filtros en Tablas Dinámicas", url: "https://support.microsoft.com/es-es/office/filtrar-datos-en-una-tabla-din%C3%A1mica-cc1ed287-3a9a-4b9d-a379-14daea36eaca" }
+    ]
   },
   { 
     title: "Tema 7: Validación de Datos", 
     description: "Controla la entrada de datos usando validaciones, listas desplegables y reglas personalizadas.", 
     video: "https://www.youtube.com/embed/1k8yM7Xh7ns", 
-    key: "excel_validation" 
+    key: "excel_validation",
+    resources: [
+      { name: "Validación de Datos", url: "https://support.microsoft.com/es-es/office/aplicar-validaci%C3%B3n-de-datos-a-las-celdas-29fecbcc-d1b9-42c1-9d76-eff3ce5f7249" },
+      { name: "Listas Desplegables", url: "https://support.microsoft.com/es-es/office/crear-una-lista-desplegable-7693307a-59ef-400a-b769-c5402dce407b" }
+    ]
   },
   { 
     title: "Tema 8: Macros y Automatización", 
     description: "Introducción a las macros para automatizar tareas repetitivas usando VBA en Excel.", 
     video: "https://www.youtube.com/embed/1v6ZWR7wF3U", 
-    key: "excel_macros" 
+    key: "excel_macros",
+    resources: [
+      { name: "Introducción a VBA", url: "https://support.microsoft.com/es-es/office/introducci%C3%B3n-a-vba-en-excel-9e767d2c-9424-4f2f-b7e0-af6a0b5c2a73" },
+      { name: "Grabar Macros", url: "https://support.microsoft.com/es-es/office/grabar-una-macro-974ef220-f716-4e01-b015-3ea70e64937b" }
+    ]
   },
   { 
     title: "Tema 9: Análisis de Datos", 
     description: "Usa herramientas como Filtros Avanzados, Segmentaciones y Power Query para analizar información eficientemente.", 
     video: "https://www.youtube.com/embed/WkZ_SJY6vZg", 
-    key: "excel_analysis" 
+    key: "excel_analysis",
+    resources: [
+      { name: "Power Query", url: "https://support.microsoft.com/es-es/office/introducci%C3%B3n-a-power-query-6e92e2f4-2079-4e1f-bad5-89f6269cd605" },
+      { name: "Filtros Avanzados", url: "https://support.microsoft.com/es-es/office/filtrar-por-uso-de-criterios-avanzados-4c9222fe-8529-4cd7-a898-3f16abdff32b" }
+    ]
   },
   { 
     title: "Tema 10: Proyecto Final en Excel", 
     description: "Integra todo lo aprendido creando un proyecto completo que combine fórmulas, gráficos y tablas dinámicas.", 
     video: "https://www.youtube.com/embed/C7Fk6RZtYck", 
-    key: "excel_final" 
-  }
+    key: "excel_final",
+    resources: [
+      { name: "Plantillas de Proyectos", url: "https://templates.office.com/es-es/proyectos" },
+      { name: "Mejores Prácticas", url: "https://support.microsoft.com/es-es/office/mejores-pr%C3%A1cticas-para-crear-una-hoja-de-c%C3%A1lculo-4b0ad287-36a1-4a8b-a287-9c45bb0e9a43" }
+    ]
+  }*/
 ];
 
   // Preguntas del examen directamente en el código (SIN fetch)
@@ -347,7 +394,7 @@ function App() {
             <span className="text-6xl">🚀</span>
           </div>
           <h1 className="text-5xl font-bold text-gray-800 mb-3">
-            Mini Curso Excel
+           Curso Excel por GRUPO 2 Lic. Sistemas
           </h1>
           <p className="text-xl text-gray-600 mb-2">
             Aprende Excel con Alex y Arriel
@@ -442,6 +489,42 @@ function App() {
                       allowFullScreen
                       title={`Video: ${steps[currentStep].title}`}
                     ></iframe>
+                  </div>
+                </div>
+
+                {/* Sección de Recursos Adicionales */}
+                <div className="mb-8">
+                  <div className="bg-gradient-to-r from-green-50 to-emerald-50 rounded-xl p-6 border-2 border-green-200">
+                    <div className="flex items-center mb-4">
+                      <span className="text-3xl mr-3">📚</span>
+                      <h3 className="text-2xl font-bold text-gray-800">Recursos Adicionales</h3>
+                    </div>
+                    <p className="text-gray-600 mb-4">
+                      Enlaces útiles para profundizar en este tema:
+                    </p>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      {steps[currentStep].resources.map((resource, index) => (
+                        <a
+                          key={index}
+                          href={resource.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="bg-white hover:bg-green-50 border-2 border-green-200 hover:border-green-400 rounded-lg p-4 transition-all duration-200 transform hover:scale-105 shadow-sm hover:shadow-md"
+                        >
+                          <div className="flex items-center">
+                            <span className="text-2xl mr-3">🔗</span>
+                            <div>
+                              <h4 className="font-semibold text-gray-800 text-sm">
+                                {resource.name}
+                              </h4>
+                              <p className="text-xs text-gray-500 truncate">
+                                {resource.url}
+                              </p>
+                            </div>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
                   </div>
                 </div>
 
